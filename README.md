@@ -1,8 +1,8 @@
 # laravel-snippet-pro
 
-[![Generic badge](https://img.shields.io/badge/Verson-1.0.0-<COLOR>.svg)]()
-[![Build Status](https://travis-ci.org/boennemann/badges.svg?branch=master)]()
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]()
+[![Generic badge](https://img.shields.io/badge/Verson-1.0.0-<COLOR>.svg)](https://github.com/IANirab/Laravel-Snippet-Pro/releases)
+[![Build Status](https://travis-ci.org/boennemann/badges.svg?branch=master)](https://github.com/IANirab/Laravel-Snippet-Pro/releases)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/IANirab/Laravel-Snippet-Pro/graphs/contributors)
 
 This is the README for this extension .
 
@@ -40,7 +40,7 @@ This is the README for this extension .
 
 Thats My first extention. So,Please help me to more better.
 
-Contact :
+Contact : https://github.com/IANirab/Laravel-Snippet-Pro/issues
 
 ## Release Notes
 
