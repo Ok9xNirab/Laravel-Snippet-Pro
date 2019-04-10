@@ -22,9 +22,9 @@
     "controller-store-function": {
         "prefix": "store",
         "body": [
-            "public function store(Request $request)",
+            "public function store(Request \\$request)",
             "{",
-            "return $request->all();",
+            "return \\$request->all();",
             "}"
         ],
         "description": "Create Store Function"
@@ -32,9 +32,9 @@
     "controller-update-function": {
         "prefix": "update",
         "body": [
-            "public function update(Request $request,$id)",
+            "public function update(Request \\$request,\\$id)",
             "{",
-            "return $request->all();",
+            "return \\$request->all();",
             "}"
         ],
         "description": "Create Update Function"
@@ -42,7 +42,7 @@
     "controller-show-function": {
         "prefix": "show",
         "body": [
-            "public function show($id)",
+            "public function show(\\$id)",
             "{",
             "${1:# code...}",
             "}"
@@ -52,7 +52,7 @@
     "controller-edit-function": {
         "prefix": "edit",
         "body": [
-            "public function edit($id)",
+            "public function edit(\\$id)",
             "{",
             "${1:# code...}",
             "}"
@@ -62,7 +62,7 @@
     "controller-destroy-function": {
         "prefix": "destroy",
         "body": [
-            "public function destroy($id)",
+            "public function destroy(\\$id)",
             "{",
             "${1:# code...}",
             "}"
@@ -94,14 +94,14 @@
     "controller-sput-function": {
         "prefix": "sput",
         "body": [
-            "Session::put('',$variable);"
+            "Session::put('',\\$variable);"
         ],
         "description": "use Session::put()"
     },
     "controller-auth-attempt": {
         "prefix": "authattempt",
         "body": [
-            "if (Auth::attempt(['email'=>$request->email,'password'=>$request->password])) {",
+            "if (Auth::attempt(['email'=>\\$request->email,'password'=>\\$request->password])) {",
             "${1:#code...}",
             "}"
         ],

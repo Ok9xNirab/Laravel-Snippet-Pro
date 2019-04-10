@@ -1,24 +1,17 @@
 {
-    "protected-table": {
-        "prefix": "pt",
-        "body": [
-            "protected $table = '';"
-        ],
-        "description": "Rewrite $table"
-    },
-    "protected-fillable": {
-        "prefix": "pfill",
-        "body": [
-            "protected $fillable = [];"
-        ],
-        "description": "fillable array"
-    },
-    "protected-all": {
-        "prefix": "pall",
-        "body": [
-            "protected $table = '';",
-            "protected $fillable = [];"
-        ],
-        "description": "create table & fillable also "
-    }
+  "protected-table": {
+    "prefix": "pt",
+    "body": ["protected \\$table = '';"],
+    "description": "Rewrite $table"
+  },
+  "protected-fillable": {
+    "prefix": "pfill",
+    "body": ["protected \\$fillable = [];"],
+    "description": "fillable array"
+  },
+  "protected-all": {
+    "prefix": "pall",
+    "body": ["protected \\$table = '';", "protected \\$fillable = [];"],
+    "description": "create table & fillable also "
+  }
 }
