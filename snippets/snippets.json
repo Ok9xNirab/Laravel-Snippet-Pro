@@ -1,0 +1,16 @@
+{
+    "route-get": {
+        "prefix": "rget",
+        "body": [
+            "Route::get('','')->name();"
+        ],
+        "description": "Route Get"
+    },
+    "route-post": {
+        "prefix": "rpost",
+        "body": [
+            "Route::post('','');"
+        ],
+        "description": "Route Post"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "laravel-snippet-pro",
+    "displayName": "Laravel Snippet Pro",
+    "description": "its a new Laravel vs-code extension",
+    "version": "1.0.0",
+    "publisher": "Nirab",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IANirab/laravel-snippet-pro"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+                "language": "php",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/controller.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/model.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/database.json"
+            }
+        ]
+    }
+}

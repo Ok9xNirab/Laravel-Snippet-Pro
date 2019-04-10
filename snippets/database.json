@@ -1,0 +1,44 @@
+{
+    "database-model-create": {
+        "prefix": "mcreate",
+        "body": [
+            "Model::create([]);"
+        ],
+        "description": "Create Model Query"
+    },
+    "database-model-select": {
+        "prefix": "mselect",
+        "body": [
+            "Model::all();"
+        ],
+        "description": "Select all data by Model"
+    },
+    "database-model-update": {
+        "prefix": "mupdate",
+        "body": [
+            "Model::where()->update([]);"
+        ],
+        "description": "Update Model Query"
+    },
+    "database-query-select": {
+        "prefix": "dbselect",
+        "body": [
+            "DB::table('${1:table_name}')->select()->get();"
+        ],
+        "description": "DB select"
+    },
+    "database-query-insert": {
+        "prefix": "dbinsert",
+        "body": [
+            "DB::table('${1:table_name}')->insert([]);"
+        ],
+        "description": "DB Insert"
+    },
+    "database-query-update": {
+        "prefix": "dbupdate",
+        "body": [
+            "DB::table('${1:table_name}')->where()->update([]);"
+        ],
+        "description": "DB Update"
+    }
+}

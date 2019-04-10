@@ -1,0 +1,126 @@
+{
+    "controller-index-function": {
+        "prefix": "index",
+        "body": [
+            "public function index()",
+            "{",
+            "${1:# code...}",
+            "}"
+        ],
+        "description": "Create Index Function"
+    },
+    "controller-create-function": {
+        "prefix": "create",
+        "body": [
+            "public function create()",
+            "{",
+            "${1:# code...}",
+            "}"
+        ],
+        "description": "Create Function"
+    },
+    "controller-store-function": {
+        "prefix": "store",
+        "body": [
+            "public function store(Request $request)",
+            "{",
+            "return $request->all();",
+            "}"
+        ],
+        "description": "Create Store Function"
+    },
+    "controller-update-function": {
+        "prefix": "update",
+        "body": [
+            "public function update(Request $request,$id)",
+            "{",
+            "return $request->all();",
+            "}"
+        ],
+        "description": "Create Update Function"
+    },
+    "controller-show-function": {
+        "prefix": "show",
+        "body": [
+            "public function show($id)",
+            "{",
+            "${1:# code...}",
+            "}"
+        ],
+        "description": "Create Show Function"
+    },
+    "controller-edit-function": {
+        "prefix": "edit",
+        "body": [
+            "public function edit($id)",
+            "{",
+            "${1:# code...}",
+            "}"
+        ],
+        "description": "Create Edit Function"
+    },
+    "controller-destroy-function": {
+        "prefix": "destroy",
+        "body": [
+            "public function destroy($id)",
+            "{",
+            "${1:# code...}",
+            "}"
+        ],
+        "description": "Create Destroy Function"
+    },
+    "controller-return-function": {
+        "prefix": "rv",
+        "body": [
+            "return view('')",
+            "->with('','');"
+        ],
+        "description": "use Return with"
+    },
+    "controller-sg-function": {
+        "prefix": "sg",
+        "body": [
+            "Session::get('');"
+        ],
+        "description": "use Session::get()"
+    },
+    "controller-seh-function": {
+        "prefix": "seh",
+        "body": [
+            "Session::has('');"
+        ],
+        "description": "use Session::has()"
+    },
+    "controller-sput-function": {
+        "prefix": "sput",
+        "body": [
+            "Session::put('',$variable);"
+        ],
+        "description": "use Session::put()"
+    },
+    "controller-auth-attempt": {
+        "prefix": "authattempt",
+        "body": [
+            "if (Auth::attempt(['email'=>$request->email,'password'=>$request->password])) {",
+            "${1:#code...}",
+            "}"
+        ],
+        "description": "Make Auth::attempt"
+    },
+    "controller-auth-logout": {
+        "prefix": "logout",
+        "body": [
+            "public function logout() {",
+            "Auth::logout();",
+            "}"
+        ],
+        "description": "Make Logout() function"
+    },
+    "controller-mail": {
+        "prefix": "mail",
+        "body": [
+            "Mail::to('')->send(new MailClass());"
+        ],
+        "description": "Send Mail"
+    }
+}
